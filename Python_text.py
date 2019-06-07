@@ -3,4 +3,4 @@ while True:
     if content == 'Q':
         print(content)
     break
-print("我去吃饭了)
+print("我去吃饭了.)
