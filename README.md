@@ -1,2 +1,2 @@
-# jawy
-This is the self-use code.
+# jawy_practice
+This is the self-use practice code.
