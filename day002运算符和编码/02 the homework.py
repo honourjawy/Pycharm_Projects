@@ -31,3 +31,13 @@ if name == ("马化疼"):
     print("真聪明")
 else:
     print("笨小孩")
+
+mouth = input("请输入月份")
+if mouth == '一月':
+    print("卤煮")
+elif mouth == '二月':
+    print("娃哈哈")
+elif mouth == '三月':
+    print("娃哈哈")
+
+# 易丢:           和            ==中的""
