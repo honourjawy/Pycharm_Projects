@@ -19,7 +19,7 @@ lk = re.findall(res,web,re.S)#由于findall是逐行匹配，re.S使得匹配包
 path = "D:\文件夹"#下载的图片保存的路径，一定得是这种格式，最后不能带斜杠
 savep = os.path.exists(path)#判断该文件夹是否存在
 if savep == False:
-    print("该文件夹不存在，请重新修改路径")
+    print("该文件夹不存在，请重新修改路径吧")
     os._exit()#强退
 nm = 0#图片的名字，依次递增
 for line in lk:#依次循环http://www.win4000.com/zt/erciyuan_1.html的24个图集
