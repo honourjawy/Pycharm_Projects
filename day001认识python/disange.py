@@ -15,6 +15,7 @@ print(a) #8
 print(a*6) #48
 
 b = a * 6 * 64
+b = a * 6 * 64
 print(b)
 
 c = b -7
@@ -30,12 +31,12 @@ print("a")
 # 变量的命名规范
 # 1. 必须是字母, 数字, 下划线组成
 # 2. 不能是纯数字也不能是数字开头
-#	1 = 8 #假设合法 
-#	print(1+1)#??? 2 9 16
+# 	1 = 8 #假设合法
+# 	print(1+1)#??? 2 9 16
 # 3.不要用中文
 # 4.不能用关键字. 关键字就是python已经占用了的东西
 # 5.不要太长
-# 6.要有意义 
+# 6.要有意义
 # 7.区分大小写(A, a)
 # 8,推荐使用:1.驼峰(单词首字母大写)   2. 下划线
 
@@ -46,8 +47,8 @@ duomeshanpaodealex
 fjaskldfjklsdajfklsdaj = "王者荣耀"
 
 # 李宝库
-zhonggongzhongyangguowuyuanliaoningshengdongxingxianlongquanshanzhuangyaoshanbuzhuguanjinglilibaoku = "药匣子"
-print(zhonggongzhongyangguowuyuanliaoningshengdongxingxianlongquanshanzhuangyaoshanbuzhuguanjinglilibaoku) 
+zhonggongzhongyainglilibaoku = "药匣子"
+print(zhonggongzhongyanggquansnglilibaoku) 
 '''
 
 
