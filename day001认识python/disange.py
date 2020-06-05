@@ -42,7 +42,7 @@ print("a")
 
 '''
 duo_me_shan_pao_de_alex
-duoMeShanPaoDeAlex
+duoMeShanPaoDeAle
 duomesdealex
 fjaskldfjlsdaj = "王者荣耀"
 
