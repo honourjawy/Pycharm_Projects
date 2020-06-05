@@ -43,8 +43,8 @@ print("a")
 '''
 duo_me_shan_pao_de_alex
 duoMeShanPaoDeAlex
-duomeshanpaodealex
-fjaskldfjklsdajfklsdaj = "王者荣耀"
+duomesdealex
+fjaskldfjlsdaj = "王者荣耀"
 
 # 李宝库
 zhonggongzhongyainglilibaoku = "药匣子"
