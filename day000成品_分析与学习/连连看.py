@@ -38,7 +38,7 @@ class GameAuxiliaries(object):
                 im.save('{}-{}.jpg'.format(x,y))
                 self.image_list[x][y]=im
 
-    # 判断两个图片是否相同。汉明距离，平均哈希
+    # 判断两个图片是否相同。汉明距离，计算平均哈希
     def compare_img(self,im1,im2):
         img1 = im1.resize((20, 20), Image.ANTIALIAS).convert('L')
         img2 = im2.resize((20, 20), Image.ANTIALIAS).convert('L')
