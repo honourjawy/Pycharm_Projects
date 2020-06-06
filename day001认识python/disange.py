@@ -47,8 +47,8 @@ duomesdealex
 fjaskldfjlsdaj = "王者荣耀"
 
 # 李宝库
-zhonggongzhongyainglilibaoku = "药匣子"
-print(zhonggongzhongyanggquansnglilibaoku) 
+zhongu = "药匣子"
+print(zhongu) 
 '''
 
 
