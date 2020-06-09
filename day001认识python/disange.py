@@ -40,14 +40,21 @@ print("a")
 # 7.区分大小写(A, a)
 # 8,推荐使用:1.驼峰(单词首字母大写)   2. 下划线
 
-'''
-duo_me_shan_pao_de_alex
-duoMeShanPaoDeAle
-duomesdealex
-fjaskldfjlsdaj = "王者荣耀"
+
+# duo_me_shan_pao_de_alex
+# duoMeShanPaoDeAle
+# duomesdealex
+# fjaskldfjlsdaj = "王者荣耀"
 
 # 李宝库
+'''
 zhongu = "药匣子"
+zhongu = "药匣子"
+print(zhongu) 
+
+zhongu = "药匣子"
+zhongu = "药匣子"
+print(zhongu) 
 print(zhongu) 
 '''
 
