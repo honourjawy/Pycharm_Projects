@@ -1,3 +1,55 @@
+
+msg = '''------------ info of 太白金星  -----------
+Name  : 太白金星
+Age   : 18
+job   : Teacher
+Hobbie: girl
+------------- end -----------------'''
+
+msg1 = '''------------ info of 德刚  -----------
+Name  : 德刚
+Age   : 73
+job   : Teacher
+Hobbie: boy
+------------- end -----------------'''
+
+# 制作一个公共的模板
+# 让一个字符串的某些位置变成动态可传入的。
+# 格式化输出
+# % 占位符  s --> str  d  i  r
+name = input('请输入你的姓名：')
+age = input('请输入你的年龄：')
+job = input('请输入你的工作：')
+hobby = input('请输入你的爱好：')
+msg = '''------------ info of %s  -----------
+Name  : %s
+Age   : %d
+job   : %s
+Hobbie: %s
+------------- end -----------------''' % (name, name, int(age), job, hobby)
+print(msg)
+
+
+
+
+
+# 坑：在格式化输出中，如果想表示一个百分号，而不是占位符使用,需要再加 %
+msg = '我叫%s,今年%s,学习进度1%%' % ('太白金星', 18)
+print(msg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 s = "alex是一个很愚蠢的人"
 print(s)
 
@@ -7,10 +59,6 @@ print(s1)
 
 
 
-name = "小白"
-xingrong = "六"
-s2 = name+"是一个很"+xingrong+"的人"      # 这句话就是一个格式
-print(s2)
 
 
 
@@ -40,6 +88,11 @@ print("我们大家已经学习了15%的内容了")   # 当字符串中不出现
 
 print(2**32)
 
+name = "小白"
+xingrong = "六"
+s2 = name+"是一个很"+xingrong+"的人"      # 这句话就是一个格式
+print(s2)
 
 
+print(6666)
 
