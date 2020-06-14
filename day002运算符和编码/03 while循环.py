@@ -43,7 +43,7 @@ print(sum)
 
 
 
-让用户输入喷的内容. 不停的喷*******
+# 让用户输入喷的内容. 不停的喷*******
 while True:
     content = input("请输入你要跟对方说的话(输入Q退出程序)：")
     if content == 'Q':
@@ -77,8 +77,8 @@ count = 2
 while True:
     print(count)
     count = count+2
-    if count == 102:
-    break
+#   if count == 102:
+#   break
 
 
 
