@@ -1,8 +1,12 @@
-print("你好, 我叫jawy")
-print("我说好用就好用")
-print("helloWord")
+# # bool : True False
+# print(2 > 1)     # True
+# print(3 < 1)     # False
+# print(True,type(True))
+# print('True',type('True'))
 
-print("本地->云端测试")
-print("本地<-云端测试")
 
 
+s1 = '100'
+s2 = 100
+print(s1,type(s1))
+print(s2,type(s2))
