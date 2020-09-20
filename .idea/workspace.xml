@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8bfd2acd-b699-49eb-95f1-4bf6b3110f79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day001认识python/dierge.py" beforeDir="false" afterPath="$PROJECT_DIR$/day001认识python/dierge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day000成品_分析与学习/某爬图.py" beforeDir="false" afterPath="$PROJECT_DIR$/day000成品_分析与学习/某爬图.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day001认识python/Python_first text.py" beforeDir="false" afterPath="$PROJECT_DIR$/day001认识python/Python_first text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day002运算符和编码/自我练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/day002运算符和编码/自我练习.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day003字符串/01 昨日内容回顾作业讲解.py" beforeDir="false" afterPath="$PROJECT_DIR$/day003字符串/01 昨日内容回顾作业讲解.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day003字符串/02 int bool.py" beforeDir="false" afterPath="$PROJECT_DIR$/day003字符串/02 int bool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day003字符串/03 str.py" beforeDir="false" afterPath="$PROJECT_DIR$/day003字符串/03 str.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +27,21 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ZoOVnZWRKMFounL4KPbIycbA7M" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.语言默认值" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -48,7 +52,7 @@
       <recent name="D:\pycharm-professional\jawy_practice\day001" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.自我练习 (1)">
+  <component name="RunManager" selected="Python.Python_first text">
     <configuration name="自我练习 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jawy_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="自我练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01 昨日内容回顾作业讲解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jawy_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,12 +83,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day002运算符和编码" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day003字符串" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Pycharm_Projects\day002运算符和编码\自我练习.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day003字符串/01 昨日内容回顾作业讲解.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04 格式化输出" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02 int bool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jawy_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,12 +105,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day002运算符和编码" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day003字符串" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day002运算符和编码/04 格式化输出.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day003字符串/02 int bool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05 运算符" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03 str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jawy_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,12 +127,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day002运算符和编码" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day003字符串" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day002运算符和编码/05 运算符.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day003字符串/03 str.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,29 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="连连看" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jawy_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day000成品_分析与学习" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day000成品_分析与学习/连连看.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dierge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python_first text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jawy_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,7 +154,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day001认识python/dierge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day001认识python/Python_first text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Python_first text" />
+        <item itemvalue="Python.03 str" />
+        <item itemvalue="Python.02 int bool" />
         <item itemvalue="Python.自我练习 (1)" />
-        <item itemvalue="Python.05 运算符" />
-        <item itemvalue="Python.04 格式化输出" />
-        <item itemvalue="Python.dierge" />
-        <item itemvalue="Python.自我练习" />
+        <item itemvalue="Python.01 昨日内容回顾作业讲解" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +217,13 @@
       <workItem from="1592131641159" duration="5910000" />
       <workItem from="1592313712355" duration="1979000" />
       <workItem from="1592536012551" duration="3307000" />
-      <workItem from="1592640868476" duration="233000" />
+      <workItem from="1592640868476" duration="741000" />
+      <workItem from="1592641640243" duration="5394000" />
+      <workItem from="1592876962343" duration="8302000" />
+      <workItem from="1593588001731" duration="2646000" />
+      <workItem from="1600479324764" duration="627000" />
+      <workItem from="1600519032927" duration="598000" />
+      <workItem from="1600584908625" duration="1352000" />
     </task>
     <task id="LOCAL-00001" summary="Error correction">
       <created>1559970317956</created>
@@ -440,13 +428,28 @@
       <option name="project" value="LOCAL" />
       <updated>1592135426482</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Increase the analysis of finished product analysis.">
+      <created>1592641141162</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1592641141162</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Increase the analysis of finished product analysis.">
+      <created>1592641697947</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1592641697947</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="day001_exercise" />
     <MESSAGE value="Reorganization" />
     <MESSAGE value="Error correction" />
@@ -458,96 +461,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="Increase the analysis of finished product analysis." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="50" key="#1111" timestamp="1585502961092">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="533" y="50" key="#1111/0.0.1536.824@0.0.1536.824" timestamp="1585502961092" />
-    <state x="447" y="93" key="#Inspections" timestamp="1585503733899">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="447" y="93" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1585503733899" />
-    <state x="598" y="69" key="#TODO" timestamp="1585504271421">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="598" y="69" key="#TODO/0.0.1536.824@0.0.1536.824" timestamp="1585504271421" />
-    <state x="601" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586172180780">
+    <state x="548" y="0" width="863" height="697" key="CommitChangelistDialog2" timestamp="1592641696626">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="601" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585526922911" />
-    <state x="601" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1586172180780" />
-    <state x="533" y="50" key="#dierge" timestamp="1585503017473">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="533" y="50" key="#dierge/0.0.1536.824@0.0.1536.824" timestamp="1585503017473" />
-    <state x="548" y="0" width="863" height="697" key="CommitChangelistDialog2" timestamp="1592135422983">
+    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1592641696626" />
+    <state width="1254" height="137" key="GridCell.Tab.0.bottom" timestamp="1600586223975">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="578" y="107" width="863" height="697" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585527878508" />
-    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1592135422983" />
-    <state x="116" y="70" key="DiffContextDialog" timestamp="1585502791594">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="116" y="70" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1585502791594" />
-    <state width="1254" height="119" key="GridCell.Tab.0.bottom" timestamp="1592538593703">
+    <state width="1254" height="137" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600586223975" />
+    <state width="1254" height="137" key="GridCell.Tab.0.center" timestamp="1600586223975">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1202" height="64" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585528421395" />
-    <state width="1254" height="119" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1592538593703" />
-    <state width="1254" height="119" key="GridCell.Tab.0.center" timestamp="1592538593703">
+    <state width="1254" height="137" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1600586223975" />
+    <state width="1254" height="137" key="GridCell.Tab.0.left" timestamp="1600586223975">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1202" height="64" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585528421395" />
-    <state width="1254" height="119" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1592538593703" />
-    <state width="1254" height="119" key="GridCell.Tab.0.left" timestamp="1592538593703">
+    <state width="1254" height="137" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1600586223975" />
+    <state width="1254" height="137" key="GridCell.Tab.0.right" timestamp="1600586223975">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1202" height="64" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585528421395" />
-    <state width="1254" height="119" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1592538593703" />
-    <state width="1254" height="119" key="GridCell.Tab.0.right" timestamp="1592538593703">
+    <state width="1254" height="137" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1600586223975" />
+    <state x="177" y="76" width="996" height="729" key="SettingsEditor" timestamp="1592878771321">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1202" height="64" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585528421395" />
-    <state width="1254" height="119" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1592538593703" />
-    <state width="950" height="174" key="GridCell.Tab.1.bottom" timestamp="1586180593325">
+    <state x="177" y="76" width="996" height="729" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1592878771321" />
+    <state x="450" y="169" key="Vcs.Push.Dialog.v2" timestamp="1592641701966">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="950" height="174" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586180593325" />
-    <state width="950" height="174" key="GridCell.Tab.1.center" timestamp="1586180593325">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="950" height="174" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1586180593325" />
-    <state width="950" height="174" key="GridCell.Tab.1.left" timestamp="1586180593324">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="950" height="174" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1586180593324" />
-    <state width="950" height="174" key="GridCell.Tab.1.right" timestamp="1586180593325">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="950" height="174" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1586180593325" />
-    <state x="25" y="66" width="996" height="729" key="SettingsEditor" timestamp="1592641110022">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="377" y="82" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585504681626" />
-    <state x="25" y="66" width="996" height="729" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1592641110022" />
-    <state x="450" y="169" key="Vcs.Push.Dialog.v2" timestamp="1592135429546">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="450" y="167" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585527881568" />
-    <state x="450" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1592135429546" />
-    <state x="528" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1591150607011">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="528" y="255" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585526711819" />
-    <state x="528" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1591150607011" />
-    <state x="641" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591336358218">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="641" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1585505432486" />
-    <state x="641" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1591336358218" />
-    <state x="796" y="224" key="git4idea.merge.GitPullDialog" timestamp="1585503658288">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="796" y="224" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1585503658288" />
+    <state x="450" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1592641701966" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -569,10 +510,14 @@
     <SUITE FILE_PATH="coverage/Pycharm_Projects$.coverage" NAME="连连看 Coverage Results" MODIFIED="1591409373617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day000成品_分析与学习" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$04_.coverage" NAME="04 格式化输出 Coverage Results" MODIFIED="1592536479736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/jawy_practice$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1559970241717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day001" />
+    <SUITE FILE_PATH="coverage/Pycharm_Projects$01_.coverage" NAME="01 昨日内容回顾作业讲解 Coverage Results" MODIFIED="1592642532129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day003字符串" />
+    <SUITE FILE_PATH="coverage/Pycharm_Projects$02_int_bool.coverage" NAME="02 int bool Coverage Results" MODIFIED="1592881233403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day003字符串" />
     <SUITE FILE_PATH="coverage/jawy_practice$helloworld__1_.coverage" NAME="helloworld (1) Coverage Results" MODIFIED="1561607904902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/jawy_practice$1111.coverage" NAME="1111 Coverage Results" MODIFIED="1561610137968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$06_.coverage" NAME="06 练习 Coverage Results" MODIFIED="1586180320587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/jawy_practice$dierge.coverage" NAME="dierge Coverage Results" MODIFIED="1585503834587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day001认识python" />
-    <SUITE FILE_PATH="coverage/Pycharm_Projects$__1_.coverage" NAME="自我练习 (1) Coverage Results" MODIFIED="1592538593687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
+    <SUITE FILE_PATH="coverage/Pycharm_Projects$__1_.coverage" NAME="自我练习 (1) Coverage Results" MODIFIED="1592645807589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
+    <SUITE FILE_PATH="coverage/Pycharm_Projects$03_str.coverage" NAME="03 str Coverage Results" MODIFIED="1592888313096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day003字符串" />
+    <SUITE FILE_PATH="coverage/Pycharm_Projects$Python_first_text.coverage" NAME="Python_first text Coverage Results" MODIFIED="1600586223955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day001认识python" />
   </component>
 </project>

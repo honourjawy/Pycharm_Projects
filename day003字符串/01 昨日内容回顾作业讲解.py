@@ -71,35 +71,35 @@
 
 
 # 7. 使用while循环输出 1 2 3 4 5 6 8 9 10
-# count = 1
+count = 1
+while count < 11:
+    if count == 7:
+        print('')
+    else:
+        print(count)
+    count += 1
+
+count = 1
+while count < 11:
+    if count == 7:
+        pass
+    else:
+        print(count)
+    count += 1
+
+count = 1
 # while count < 11:
 #     if count == 7:
-#         print('')
-#     else:
-#         print(count)
-#     count += 1
-
-# count = 1
-# while count < 11:
-#     if count == 7:
-#         pass
-#     else:
-#         print(count)
-#     count += 1
-
-# count = 1
-# # while count < 11:
-# #     if count == 7:
-# #         count += 1
-# #     print(count)
-# #     count += 1
-
-# count = 0
-# while count < 10:
-#     count += 1
-#     if count == 7:
-#         continue
+#         count += 1
 #     print(count)
+#     count += 1
+
+count = 0
+while count < 10:
+    count += 1
+    if count == 7:
+        continue
+    print(count)
 
 
 
@@ -107,27 +107,27 @@
 # 9. 输出 1-100 内的所有奇数
 # 10. 输出 1-100 内的所有偶数
 # 11. 求1-2+3-4+5 ... 99的所有数的和
-# count = 1
-# s = 0
-# while count < 100:
-#     if count % 2 == 0:
-#         s = s - count
-#     else:
-#         s = s + count
-#     count += 1
-# print(s)
+count = 1
+s = 0
+while count < 100:
+    if count % 2 == 0:
+        s = s - count
+    else:
+        s = s + count
+    count += 1
+print(s)
 
 
 # 12. 用户登录（三次输错机会）且每次输错误时显示剩余错误次数（提示：使用字符串格式化）
-# count = 1
-# while count <= 3:
-#     username = input('用户名')
-#     password = input('密码')
-#     if username == 'alex' and password == '123':
-#         print('登录成功')
-#     else:
-#         print('用户名或者密码错误,还剩%s机会' % (3-count))
-#     count = count + 1
+count = 1
+while count <= 3:
+    username = input('用户名')
+    password = input('密码')
+    if username == 'alex' and password == '123':
+        print('登录成功')
+    else:
+        print('用户名或者密码错误,还剩%s机会' % (3-count))
+    count = count + 1
 # 13. 简述ASCII、Unicode、utf-8编码
 # 14. 简述位和字节的关系？
 #

@@ -31,7 +31,7 @@ for line in lk:#依次循环http://www.win4000.com/zt/erciyuan_1.html的24个图
     urllib.request.urlretrieve(img[0],path+"/"+str(nm)+fe[0])#下载链接中指定的图片
     nm = nm + 1#名字顺序加一
     print("第" + str(nm) + "张下载完成")
-    i = 2#该图集中的第二张图片页面
+    i = 2                       #该图集中的第二张图片页面
     while i <= int(num[0]):#while循环遍历图集
         strp = re.findall(resp,line,re.S)#提取出页面的拼接字符串的前半段
         webs = urllib.request.urlopen(strp[0]+"_"+str(i)+".html").read()
