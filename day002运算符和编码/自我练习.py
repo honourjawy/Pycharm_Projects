@@ -27,8 +27,8 @@
 
 # 当字符串中出现了占位符。 那么想要使用%。 必须写%%
 # 这句话是错的,请找出来并在下面改正:    print("我叫%s, 我已经学习python15%了" % ("刘伟"))
-print("我叫%s, 我已经学习python15%%了" % ("刘伟"))
-print("我们大家已经学习了15%的内容了")                    # 当字符串中'不出现占位符',那行了
+# print("我叫%s, 我已经学习python15%%了" % ("刘伟"))
+# print("我们大家已经学习了15%的内容了")                    # 当字符串中'不出现占位符',那行了
 
 
 
@@ -51,14 +51,33 @@ print("我们大家已经学习了15%的内容了")                    # 当字�
 #     count+=1
 
 
-count = 1
-while count <=3:
-    username = input('请输入名字:')
-    password = input('请输入密码:')
-    if password == '123456' and username == 'jawy':
-        print('登陆成功')
-        break
-    else:
-        print('密码输入错误,还剩下%s次机会' %(3-count))
-    count+=1
+# count = 1
+# while count <=3:
+#     username = input('请输入名字:')
+#     password = input('请输入密码:')
+#     if password == '123456' and username == 'jawy':
+#         print('登陆成功')
+#         break
+#     else:
+#         print('密码输入错误,还剩下%s次机会' %(3-count))
+#     count+=1
+#
 
+
+
+
+s111 = 'python全栈22期'
+s00 = s111[0:5]        # 顾头不顾屁股所以只能pytho
+s11 = s111[0:6]        # 顾头不顾屁股,必须5+1 ----> python
+s22 = s111[:6]         #  [0:6]   ---->   [:6]    若从开头取,则可省略0
+s33 = s111[6:-2]
+s99 = s111[6:]
+s55 = s111[-2:6]
+s66 = s111[-2:0]
+s88 = s111[-2:]
+
+
+print(s55)          #
+# print(s55)          #
+# print(s66)          #2期
+# print(s88)          #
