@@ -22,11 +22,11 @@
 # s4 = s1[-1]
 # s5 = s1[10]
 # s6 = s1[-6]
-# print(s2,type(s2))           # p <class 'str'>
-# print(s3)                    # t
-# print(s4)                    # 期
-# print(s5)                    # 期
-# print(s6)                    # n
+# print(s2,type(s2))         # p <class 'str'>
+# print(s3)                  # t
+# print(s4)                  # 期
+# print(s5)                  # 期
+# print(s6)                  # n
 
 
 # # 按照切片取值,   注意:step缺省时为1
@@ -42,45 +42,45 @@
 # s66 = s111[-2:0]
 # s88 = s111[-2:]
 #
-# print(s00)          # pytho
-# print(s11)          # python
-# print(s22)          # python
-# print(s33)          # 全栈2
-# print(s99)          # 全栈22期
-# print(s77)          #
-# print(s55)          #
-# print(s66)          #
-# print(s88)          #2期
+# print(s00)                  # pytho
+# print(s11)                  # python
+# print(s22)                  # python
+# print(s33)                  # 全栈2
+# print(s99)                  # 全栈22期
+# print(s77)                  #
+# print(s55)                  #
+# print(s66)                  #
+# print(s88)                  # 2期
 
 
 
 
 
-# 切片步长(  先left与right划出范围(且要清楚索引不包括right)   然后以-1为基准跳步长    )
-# step缺省时默认为1
-s1 = 'python全栈22期'
-print(s1[:5:2])          # pto
-print(s1[2:7:5])         # t         (先选上left,step为5----->中间夹4个走,跳出区域这无)
-print(s1[2:7:4])         # t全       (先选上left,step为4----->中间夹3个走,跳出区域这无)
-print(s1[2:7:3])         # tn        (先选上left,step为3----->中间夹2个走,跳出区域这无)
-print(s1[2:7:2])         # to全       (先选上left,step为2----->中间夹1个走)
-print(s1[2:7:1])         # thon全
-# print(s1[2:7:0])       # 报错,step不可为0
-# step为-1时,但是left -----> right方向应为为逆向,否则成 空
-print('分隔符-----------引入倒序1--------------')
-print(s1[:5:-2])          # 期2全     (这时,看作0---->-6)
-print(s1[:-6:-2])         # 期2全     (为什么这样可改,下面不行呢?)
-print(s1[2:7:-5])         #
-print(s1[2:7:-4])         #
-print(s1[2:7:-3])         #
-print(s1[2:7:-2])         #
-print(s1[2:7:-1])         #
-print('分隔符-----------引入倒序2--------------')
-print(s1[-1:-5])          #
-print(s1[6:1])            #
-print(s1[-1:-5:-1])       # 期22栈
-print(s1[-1:-6:-1])       # 期22栈全
-print(s1[-1:-6:-2])       # 期2全
+# # 切片步长(  先left与right划出范围(且要清楚索引不包括right)   然后以-1为基准跳步长    )
+# # step缺省时默认为1
+# s1 = 'python全栈22期'
+# print(s1[:5:2])          # pto
+# print(s1[2:7:5])         # t         (先选上left,step为5----->中间夹4个走,跳出区域这无)
+# print(s1[2:7:4])         # t全       (先选上left,step为4----->中间夹3个走,跳出区域这无)
+# print(s1[2:7:3])         # tn        (先选上left,step为3----->中间夹2个走,跳出区域这无)
+# print(s1[2:7:2])         # to全       (先选上left,step为2----->中间夹1个走)
+# print(s1[2:7:1])         # thon全
+# # print(s1[2:7:0])       # 报错,step不可为0
+# # step为-1时,但是left -----> right方向应为为逆向,否则成 空
+# print('分隔符-----------引入倒序1--------------')
+# print(s1[:5:-2])          # 期2全     (这时,看作0---->-6)
+# print(s1[:-6:-2])         # 期2全     (为什么这样可改,下面不行呢?)
+# print(s1[2:7:-5])         #
+# print(s1[2:7:-4])         #
+# print(s1[2:7:-3])         #
+# print(s1[2:7:-2])         #
+# print(s1[2:7:-1])         #
+# print('分隔符-----------引入倒序2--------------')
+# print(s1[-1:-5])          #
+# print(s1[6:1])            #
+# print(s1[-1:-5:-1])       # 期22栈
+# print(s1[-1:-6:-1])       # 期22栈全
+# print(s1[-1:-6:-2])       # 期2全
 
 
 
@@ -125,7 +125,7 @@ s = 'taiBAifdsa'
 
 # replace
 msg = 'alex 很nb,alex是老男孩教育的创始人之一，alex长得很帅'
-# msg1 = msg.replace('alex','太白')  # 默认全部替换
+# msg1 = msg.replace('alex','太白')          # 默认全部替换
 # msg1 = msg.replace('alex','太白',2)
 # print(msg)
 # print(msg1)
