@@ -116,13 +116,13 @@
 
 # # Case2:
 # #   str.upper() 全部大写     ,    str.lower() 全部小写
-# #   不会对原字符串进行任何操作，都是产生一个新的字符串
+# #   注意:字符串str并没有发生改变， str.upper()函数并不对原有的字符串进行改变!!!
 # s = 'taiBAifdsa'
 # s1 = s.upper()
 # s2 = s.lower()
 # print(s1,type(s1))
 # print(s2,type(s2))
-
+#
 # # 应用：
 # username = input('用户名')
 # password = input('密码')
@@ -155,12 +155,14 @@
 # # replace
 # # str.replace(old, new, [max]) 方法把字符串中的 old（旧字符串） 替换成  new(新字符串)
 # # 如果指定第三个参数max，则替换不超过 max 次
+# # 注意:字符串str并没有发生改变，str.replace()函数并不对原有的字符串进行改变!!!
 msg = 'alex 很nb,alex是老男孩教育的创始人之一，alex长得很帅'
-msg1 = msg.replace('alex','太白')          # 默认全部替换
+msg1 = msg.replace('alex','太白')          # [max]不存在,则默认全部替换
 msg2 = msg.replace('alex','太白',2)
-print(msg1)
-print(msg2)
-
+msg3 = msg.replace('alex','太白',6)
+print(msg1)     # 太白 很nb,太白是老男孩教育的创始人之一，太白长得很帅
+print(msg2)     # 太白 很nb,太白是老男孩教育的创始人之一，alex长得很帅
+print(msg3)     # 太白 很nb,太白是老男孩教育的创始人之一，太白长得很帅
 
 # strip:空白：空格，\t \n
 # s4 = '  \n太白\t'
