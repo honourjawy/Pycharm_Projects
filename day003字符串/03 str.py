@@ -146,7 +146,7 @@
 # s = 'taiBAifdsa'
 # print(s.startswith('t'))            # True
 # print(s.startswith('taiBAi'))       # True
-# print(s.startswith('B',3,6))        # True        # 顾头不顾腚
+# print(s.startswith('B',3,6))        # True        # 3-->6(顾头不顾腚中),是否是以'B'打头
 
 
 
@@ -154,31 +154,44 @@
 # # Case4:
 # # replace
 # # str.replace(old, new, [max]) 方法把字符串中的 old（旧字符串） 替换成  new(新字符串)
-# # 如果指定第三个参数max，则替换不超过 max 次
+# # 如果指定第三个参数max，则替换不超过 max 次,从左到右依次替换
 # # 注意:字符串str并没有发生改变，str.replace()函数并不对原有的字符串进行改变!!!
-msg = 'alex 很nb,alex是老男孩教育的创始人之一，alex长得很帅'
-msg1 = msg.replace('alex','太白')          # [max]不存在,则默认全部替换
-msg2 = msg.replace('alex','太白',2)
-msg3 = msg.replace('alex','太白',6)
-print(msg1)     # 太白 很nb,太白是老男孩教育的创始人之一，太白长得很帅
-print(msg2)     # 太白 很nb,太白是老男孩教育的创始人之一，alex长得很帅
-print(msg3)     # 太白 很nb,太白是老男孩教育的创始人之一，太白长得很帅
+# msg = 'alex 很nb,alex是老男孩教育的创始人之一，alex长得很帅'
+# msg1 = msg.replace('alex','太白')          # [max]不存在,则默认全部替换
+# msg2 = msg.replace('alex','太白',2)
+# msg3 = msg.replace('alex','太白',6)
+# print(msg1)     # 太白 很nb,太白是老男孩教育的创始人之一，太白长得很帅
+# print(msg2)     # 太白 很nb,太白是老男孩教育的创始人之一，alex长得很帅
+# print(msg3)     # 太白 很nb,太白是老男孩教育的创始人之一，太白长得很帅
 
-# strip:空白：空格，\t \n
-# s4 = '  \n太白\t'
-# # print(s4)
-# s5 = s4.strip()
-# print(s5)
-# 了解
-# 可以去除指定的字符
-# s4 = 'rre太r白qsd'
-# s5 = s4.strip('qrsed')
-# print(s5)
 
-# split  非常重要
-# 默认按照空格分隔，返回一个列表
-# 指定分隔符
-# str ---> list
+# # Case5:
+# # strip:  空白：(空格)    、    \t  (TAB键)    、  \n  (换行符)
+# s1 = '  太白\t'
+# s2 = '  \n太白\t'
+# s3 = '\n  太白\t'
+# print(s1)        # (  太白	)
+# print(s2)        # 换行+(太白   )
+# print(s3)        # 换行+(  太白	)
+#
+# s6 = '  \n太白\t'
+# s5 = s6.strip()      # 去除空白
+# print(s5)            # 太白
+#
+# # 可以去除指定的字符
+# s6 = 'rre太r白qsd'
+# s8 = 'rre太白qsd'
+# s1 = s8.strip('qrsed')
+# s2 = s6.strip('qrsed')
+# print(s1)                # 太白
+# print(s2)                # 太r白    #从前往后+从后往前同时去除,遇去除不了的这停!!!
+
+
+# # Case5:
+# # split  非常重要!!!
+# # 默认按照空格分隔，返回一个列表
+# # 指定分隔符
+# # str ---> list
 # s6 = '太白 女神 吴超'
 # s6 = '太白:女神:吴超'
 # l = s6.split(':')
