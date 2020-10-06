@@ -55,8 +55,8 @@
 
 
 
-
-# # 切片步长(  先left与right划出范围(且要清楚索引不包括right)   然后以-1为基准跳步长    )
+# # 切片就是通过索引（索引：索引：步长）截取字符串的一段
+# # 切片步长 {  先left与right划出范围(且要清楚索引不包括right) ,  然后以-1为基准跳步长    }
 # # step缺省时默认为1
 # s1 = 'python全栈22期'
 # print(s1[:5:2])          # pto
@@ -66,7 +66,7 @@
 # print(s1[2:7:2])         # to全       (先选上left,step为2----->中间夹1个走)
 # print(s1[2:7:1])         # thon全
 # # print(s1[2:7:0])       # 报错,step不可为0
-# # step为-1时,但是left -----> right方向应为为逆向,否则成 空
+# # step为-1时,但是'left -----> right方向应为为逆向',否则成 空
 # print('分隔符-----------引入倒序1--------------')
 # print(s1[:5:-2])          # 期2全     (这时,看作0---->-6)
 # print(s1[:-6:-2])         # 期2全     (为什么这样可改,下面不行呢?)
@@ -81,32 +81,54 @@
 # print(s1[-1:-5:-1])       # 期22栈
 # print(s1[-1:-6:-1])       # 期22栈全
 # print(s1[-1:-6:-2])       # 期2全
+# print(s1[-1::-1])         # 期22栈全nohtyp
 
-
-
-
-
-# 按索引：s1[index]
-# 按照切片： s1[start_index: end_index+1]
-# 按照切片步长： s1[start_index: end_index+1:2]
-# 反向按照切片步长： s1[start_index: end_index后延一位:2]
+# 总结:
+# 按索引：         s1[index]
+# 按照切片：        s1[start_index:end_index+1]
+# 按照切片步长：     s1[start_index:end_index+1:2]
+# 反向按照切片步长：  s1[start_index: end_index后延一位:-2]
 # 思考题：倒序全部取出来？
 
 
-s = 'taiBAifdsa'
-# 字符串的常用操作方法
-# 不会对原字符串进行任何操作，都是产生一个新的字符串
-# upper lower
-# s1 = s.upper()
-# # s1 = s.lower()
-# print(s1,type(s1))
 
-# 应用：
+# # 字符串的常用操作方法
+# # 字符串除了可以用切片（步长）之外，还有一些其他什么操作方法呢?
+
+# # Case1:
+# # str.count() 方法用于统计字符串里某个字符出现的次数。可选参数为在字符串搜索的开始与结束位置。
+# # str.count(sub, start= 0,end=len(string))
+# # sub -- 搜索的子字符串
+# # start -- 字符串开始搜索的位置。默认为第一个字符,第一个字符索引值为0。
+# # end -- 字符串中结束搜索的位置。字符中第一个字符的索引为 0。默认为字符串的最后一个位置。
+# a1 = "d0akaf40ajd04k0a0A0fas0a0A0f5a4"
+# ret3 = a1.count("a",0,4)       # 可切片
+# print('ret3')                  # ret3,易错!!
+# print(ret3)                    # 1  ,   先顾头不顾腚
+# print(a1.count("a",0,4))       # 1  ,   先顾头不顾腚
+#
+# mmm="wwow1wowhioswvhdwbob.com"
+# print (mmm.count('o'))                     #  5   # 若后面没有,默认全部索引
+# print (mmm.count('w',0, 5))                #  3   # 若后面有,先顾头不顾腚,再统计范围里,字符串里此字符出现次数
+# print (mmm.count('w1wwhs',0, 10))          #  0
+# print (mmm.count('wowhios',1, 13))         #  1
+
+
+# # Case2:
+# #   str.upper() 全部大写     ,    str.lower() 全部小写
+# #   不会对原字符串进行任何操作，都是产生一个新的字符串
+# s = 'taiBAifdsa'
+# s1 = s.upper()
+# s2 = s.lower()
+# print(s1,type(s1))
+# print(s2,type(s2))
+
+# # 应用：
 # username = input('用户名')
 # password = input('密码')
 # code = 'QweA'
 # print(code)
-# your_code = input('请输入验证码：不区分大小写')
+# your_code = input('请输入验证码：不区分大小写')       # 不区分大小写
 # if your_code.upper() == code.upper():
 #     if username == '太白' and password == '123':
 #         print('登录成功')
@@ -114,21 +136,30 @@ s = 'taiBAifdsa'
 #         print('用户名密码错误')
 # else:
 #     print('验证码错误')
-#
-
-# startswith endswith
-# print(s.startswith('t'))  ***
-# print(s.startswith('taiBAi'))  ***
-# 了解
-# print(s.startswith('B',3,6))
 
 
-# replace
+
+# # Case3:
+# # startswith endswith的 用法,    注意布尔类型!!
+# # startswith 判断是否以...开头
+# # endswith 判断是否以...结尾
+# s = 'taiBAifdsa'
+# print(s.startswith('t'))            # True
+# print(s.startswith('taiBAi'))       # True
+# print(s.startswith('B',3,6))        # True        # 顾头不顾腚
+
+
+
+
+# # Case4:
+# # replace
+# # str.replace(old, new, [max]) 方法把字符串中的 old（旧字符串） 替换成  new(新字符串)
+# # 如果指定第三个参数max，则替换不超过 max 次
 msg = 'alex 很nb,alex是老男孩教育的创始人之一，alex长得很帅'
-# msg1 = msg.replace('alex','太白')          # 默认全部替换
-# msg1 = msg.replace('alex','太白',2)
-# print(msg)
-# print(msg1)
+msg1 = msg.replace('alex','太白')          # 默认全部替换
+msg2 = msg.replace('alex','太白',2)
+print(msg1)
+print(msg2)
 
 
 # strip:空白：空格，\t \n
@@ -172,10 +203,10 @@ msg = 'alex 很nb,alex是老男孩教育的创始人之一，alex长得很帅'
 # format: 格式化输出
 # # 第一种用法：
 # msg = '我叫{}今年{}性别{}'.format('大壮',25,'男')
-# 第二种用法：
+# # 第二种用法：
 # msg = '我叫{0}今年{1}性别{2}我依然叫{0}'.format('大壮', 25,'男')
 # print(msg)
-# 第三种用法：
+# # 第三种用法：
 # a = 100
 # msg = '我叫{name}今年{age}性别{sex}'.format(age=a,sex='男',name='大壮')
 # print(msg)
