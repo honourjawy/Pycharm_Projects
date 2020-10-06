@@ -233,6 +233,7 @@
       <workItem from="1601291875832" duration="6308000" />
       <workItem from="1601368858167" duration="7664000" />
       <workItem from="1601948636875" duration="5090000" />
+      <workItem from="1601988752487" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="Error correction">
       <created>1559970317956</created>
@@ -500,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601374789041</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Increase the analysis of finished product analysis.">
+      <created>1601988779824</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1601988779824</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,10 +531,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="442" y="176" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1600753926897" />
-    <state x="548" y="0" width="863" height="697" key="CommitChangelistDialog2" timestamp="1601374786017">
+    <state x="548" y="0" width="863" height="697" key="CommitChangelistDialog2" timestamp="1601988776841">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1601374786017" />
+    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1601988776841" />
     <state width="626" height="225" key="GridCell.Tab.0.bottom" timestamp="1601953745351">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -563,10 +571,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="253" y="55" width="996" height="729" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1601370221341" />
-    <state x="450" y="169" key="Vcs.Push.Dialog.v2" timestamp="1601374793416">
+    <state x="450" y="169" key="Vcs.Push.Dialog.v2" timestamp="1601988781624">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="450" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601374793416" />
+    <state x="450" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601988781624" />
     <state x="423" y="155" key="search.everywhere.popup" timestamp="1600754416633">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
