@@ -25,10 +25,10 @@ print(i.bit_length())        # 4
 # True    1   False     0
 # 非零即True    0 是 False
 i = 5
-print(bool(i))            # True
-print(int(False))         # 0
-
-
+print(bool(i))              # True
+print(int(False))           # 0
+print(bool(' '))            # True
+print(bool( ))              # False
 
 # str   <--->   int
 s1 = 10
@@ -61,4 +61,5 @@ if s:
     print('有内容')
 else:
     print('没有输入任何内容')
+
 
