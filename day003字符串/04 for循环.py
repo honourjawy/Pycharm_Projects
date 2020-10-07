@@ -53,4 +53,25 @@
 #         break
 #
 # break continue
-# for else  与  while else用法一样(break)。
+# for else  与  while else用法一样(break)
+
+
+#
+# fruits = ['banana', 'apple',  'mango']
+# print(len(fruits))      # 3
+#
+# fruits = ['banana', 'apple',  'mango']
+# for index in range(len(fruits)):
+#    print('当前水果 :', fruits[index])
+# # 运行结果:
+# # 当前水果 : banana
+# # 当前水果 : apple
+# # 当前水果 : mango
+
+# a = ['banana', 'apple',  'mango']
+# for i in range(3):
+#    print('当前水果 :', a[i])
+#    # # 运行结果:
+#    # 当前水果: banana
+#    # 当前水果: apple
+#    # 当前水果: mango

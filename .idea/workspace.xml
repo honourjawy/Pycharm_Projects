@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8bfd2acd-b699-49eb-95f1-4bf6b3110f79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day003字符串/03 str.py" beforeDir="false" afterPath="$PROJECT_DIR$/day003字符串/03 str.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day003字符串/04 for循环.py" beforeDir="false" afterPath="$PROJECT_DIR$/day003字符串/04 for循环.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day003字符串/自我练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/day003字符串/自我练习.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +236,7 @@
       <workItem from="1601948636875" duration="5090000" />
       <workItem from="1601988752487" duration="6117000" />
       <workItem from="1602038411591" duration="3328000" />
-      <workItem from="1602053570000" duration="5365000" />
+      <workItem from="1602053570000" duration="6276000" />
     </task>
     <task id="LOCAL-00001" summary="Error correction">
       <created>1559970317956</created>
@@ -539,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601995476048</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Increase the analysis of finished product analysis.">
+      <created>1602059045536</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1602059045536</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,26 +569,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="442" y="176" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1600753926897" />
-    <state x="548" y="0" width="863" height="697" key="CommitChangelistDialog2" timestamp="1601995474999">
+    <state x="548" y="0" width="863" height="697" key="CommitChangelistDialog2" timestamp="1602059043488">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1601995474999" />
-    <state width="626" height="225" key="GridCell.Tab.0.bottom" timestamp="1602058840739">
+    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1602059043488" />
+    <state width="626" height="225" key="GridCell.Tab.0.bottom" timestamp="1602059799349">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="626" height="225" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602058840739" />
-    <state width="626" height="225" key="GridCell.Tab.0.center" timestamp="1602058840739">
+    <state width="626" height="225" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602059799349" />
+    <state width="626" height="225" key="GridCell.Tab.0.center" timestamp="1602059799348">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="626" height="225" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1602058840739" />
-    <state width="626" height="225" key="GridCell.Tab.0.left" timestamp="1602058840739">
+    <state width="626" height="225" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1602059799348" />
+    <state width="626" height="225" key="GridCell.Tab.0.left" timestamp="1602059799348">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="626" height="225" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1602058840739" />
-    <state width="626" height="225" key="GridCell.Tab.0.right" timestamp="1602058840739">
+    <state width="626" height="225" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1602059799348" />
+    <state width="626" height="225" key="GridCell.Tab.0.right" timestamp="1602059799349">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="626" height="225" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1602058840739" />
+    <state width="626" height="225" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1602059799349" />
     <state width="627" height="262" key="GridCell.Tab.1.bottom" timestamp="1601207134474">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -602,10 +609,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="253" y="55" width="996" height="729" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1601370221341" />
-    <state x="450" y="169" key="Vcs.Push.Dialog.v2" timestamp="1601994142030">
+    <state x="450" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602059047957">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="450" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601994142030" />
+    <state x="450" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1602059047957" />
     <state x="423" y="155" key="search.everywhere.popup" timestamp="1600754416633">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -630,7 +637,7 @@
     <SUITE FILE_PATH="coverage/Pycharm_Projects$06_.coverage" NAME="06 练习 Coverage Results" MODIFIED="1586180320587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$03_while.coverage" NAME="03 while循环 Coverage Results" MODIFIED="1591676639216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$05_.coverage" NAME="05 运算符 Coverage Results" MODIFIED="1592537691365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
-    <SUITE FILE_PATH="coverage/Pycharm_Projects$04_for.coverage" NAME="04 for循环 Coverage Results" MODIFIED="1602058840730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day003字符串" />
+    <SUITE FILE_PATH="coverage/Pycharm_Projects$04_for.coverage" NAME="04 for循环 Coverage Results" MODIFIED="1602059799340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day003字符串" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$04_.coverage" NAME="04 格式化输出 Coverage Results" MODIFIED="1592536479736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/jawy_practice$helloworld__1_.coverage" NAME="helloworld (1) Coverage Results" MODIFIED="1561607904902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$__1_.coverage" NAME="自我练习 (1) Coverage Results" MODIFIED="1601196558739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
