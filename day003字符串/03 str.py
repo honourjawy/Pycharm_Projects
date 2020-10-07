@@ -115,8 +115,9 @@
 
 
 # # Case2:
-# #   str.upper() 全部大写     ,    str.lower() 全部小写
-# #   注意:字符串str并没有发生改变， str.upper()函数并不对原有的字符串进行改变!!!
+# # str.upper()     str.lower()
+# # str.upper() 全部大写     ,    str.lower() 全部小写
+# # 注意:字符串str并没有发生改变， str.upper()函数并不对原有的字符串进行改变!!!
 # s = 'taiBAifdsa'
 # s1 = s.upper()
 # s2 = s.lower()
@@ -140,6 +141,7 @@
 
 
 # # Case3:
+# # startswith endswith
 # # startswith endswith的 用法,    注意布尔类型!!
 # # startswith 判断是否以...开头
 # # endswith 判断是否以...结尾
@@ -187,52 +189,106 @@
 # print(s2)                # 太r白    #从前往后+从后往前同时去除,遇去除不了的这停!!!
 
 
-# # Case5:
-# # split  非常重要 !!!
-# # 默认按照空格分隔，返回一个列表
+# # Case6:
+# # split  非常重要 !!!  (  str--->列表   进行转换  )
 # # 指定分隔符
 # # str ---> list
-# s6 = '太白 女神 吴超'
-# s6 = '太白:女神:吴超'
-# l = s6.split(':')
-# print(l)
-# 了解：
-# s6 = ':barry:nvshen:wu'
-# # print(s6.split(':'))
-# print(s6.split(":",2))
 
-# join 非常好用
+
+# # str.split(str="", num = string.count(str))   即:通过指定分隔符对字符串进行切片，如果参数 num 有指定值，则分隔 num+1 个子字符串,后面挨着
+# # str -- 分隔符，默认为所有的空字符，包括空格、换行(\n)、制表符(\t)等。
+# # num -- 分割次数。默认为 -1, 即分隔所有。
+
+# s6 = '太白 女神 吴超'
+# s8 = '太白:女神:吴超'
+# l = s6.split( )      # 默认按照空格分隔，返回一个'列表'
+# m = s6.split()       # 默认按照空格分隔，返回一个'列表'
+# print(l)              # ['太白', '女神', '吴超']
+# print(m)              # ['太白', '女神', '吴超']
+#
+# a = s8.split( )        # 默认按照空格分隔，返回一个'列表'    # 也可以写成: a = s8.split( )
+# b = s8.split(' ')      # 默认按照空格分隔，返回一个'列表'    # b = s8.split('')会报错
+# c = s8.split(':')      # 默认按照空格分隔，返回一个'列表'
+# e = s6.split(' ')      # 默认按照空格分隔，返回一个'列表'
+# d = s8.split( )        # 默认按照空格分隔，返回一个'列表'
+# print(a)                # ['太白:女神:吴超']
+# print(b)                # ['太白:女神:吴超']
+# print(c)                # ['太白', '女神', '吴超']
+# print(e)                # ['太白', '女神', '吴超']        # 注意c和e,中间是什么引号里放什么
+# print(d)                # ['太白:女神:吴超']              # 注意区别于列表
+
+
+
+# #
+# s9 = "Line1-abcdef \nLine2-abc \nLine4-abcd"
+# o = s9.split( )                      # 以空格为分隔符，包含 \n
+# p = s9.split(' ', 1 )                # 以空格为分隔符，分隔成两个
+# q = s9.split(' ', 2 )                # 即如果参数2，则分隔 2+1 个子字符串,后面挨着
+# print (o)                # ['Line1-abcdef', 'Line2-abc', 'Line4-abcd']
+# print (p)                # ['Line1-abcdef', '\nLine2-abc \nLine4-abcd']
+# print (q)                # ['Line1-abcdef', '\nLine2-abc', '\nLine4-abcd']
+
+# #
+# s7 = ':w肯定是:不错:wu'         # 3个分隔符,分出来4个
+# s6 = ' :w肯定是:不错:wu'        # 3个分隔符,分出来4个
+# print(s7.split(':'))         # ['', 'w肯定是', '不错', 'wu']
+# print(s6.split(':'))         # [' ', 'w肯定是', '不错', 'wu']
+# print(s6.split(":",2))       # [' ', 'w肯定是', '不错:wu']    # 2代表前2个依次分割,后面不要分开来个整体, 即如果参数2，则分隔 2+1 个子字符串,后面挨着
+
+
+
+# # Case7:
+# # 前提：列表里面的元素必须都是str类型
+# # join  ,将列表转换成字符串,或者说将序列中的元素以指定的字符连接生成一个新的字符串
+# # str.join(sequence)      sequence --> 要连接的元素序列
 # s1 = 'alex'
 # s2 = '+'.join(s1)
-# print(s2,type(s2))
+# s3 = '+'.join('alex')
+# print(s2,type(s2))                     # a+l+e+x <class 'str'>
 # l1 = ['太白', '女神', '吴超']
-# # 前提：列表里面的元素必须都是str类型
-# s3 = ':'.join(l1)
-# print(s3)
+# s5 = ':'.join(l1)                      # 太白:女神:吴超
+# print(s3)                              # a+l+e+x
+# print(s5)                              # 太白:女神:吴超
+#
+#
+# s1 = '+'.join('你好啊')                 # 注意如果不是列表的话,every插入
+# print(s1,type(s1))                     # 你+好+啊 <class 'str'>
+#
+# s6 = '-'
+# seq = ('a', 'b', 'c')          # 字符串序列
+# print(s6.join(seq))            # a-b-c       # 注意引号要弄掉
+# print('-'.join(seq))           # a-b-c       # 另一种表示
 
-# count
-# s8 = 'sdfsdagsfdagfdhgfhgfhfghfdagsaa'
-# print(s8.count('a'))
 
 
+# # Case8:
 # format: 格式化输出
 # # 第一种用法：
-# msg = '我叫{}今年{}性别{}'.format('大壮',25,'男')
-# # 第二种用法：
-# msg = '我叫{0}今年{1}性别{2}我依然叫{0}'.format('大壮', 25,'男')
+# msg = '我叫{}今年{}性别{}'.format('大壮',25,'男')     # 注意字符串
+# print(msg)                                         # 我叫大壮今年25性别男
+#
+# # 第二种用法：(常用)
+# msg = '我叫{0}今年{1}性别{2}我依然叫{0}'.format('大壮', 25,'男')          # 我叫大壮今年25性别男我依然叫大壮
 # print(msg)
+# msg = '我叫{1}今年{2}性别{3}我依然叫{1}'.format('大壮', 25,'男')          # 报错,因为没有3,从0开始记位
+# msg = '我叫{1}今年{2}性别{0}我依然叫{1}'.format('大壮', 25,'男')          # 我叫25今年男性别大壮我依然叫25    # 注意从0开始记位
+# print(msg)
+#
 # # 第三种用法：
-# a = 100
-# msg = '我叫{name}今年{age}性别{sex}'.format(age=a,sex='男',name='大壮')
+# a = 100          # 可以input.....变量......
+# msg = '我叫{name}今年{age}性别{sex}'.format(age=a,sex='男',name='大壮')     # 可以不按照顺序
 # print(msg)
 
+
+# # Case9:
 # is 系列：
 # name = 'taibai123'
-# name = '100①'
-# # print(name.isalnum()) #字符串由字母或数字组成
-# # print(name.isalpha()) #字符串只由字母组成
-# print(name.isdecimal()) #字符串只由十进制组成
-
+# name1 = '100①'
+# print(name.isalnum())             # 是否字符串由字母或数字组成?      # True
+# print(name.isalpha())             # 是否字符串由只由字母组成?        # False
+# print(name.isdecimal())           # 是否字符串由十进制组成?          # False
+# print(name1.isdecimal())          # 是否字符串由十进制组成?          # False
+# 用途:
 # s1 = input('请输入您的金额：')
 # if s1.isdecimal():
 #     print(int(s1))
