@@ -1,10 +1,24 @@
 
 
-# break    continue
-s1 = 'fsdafsda'
-for i in s1:
-    continue
-print(i)
+# # break    continue
+#
+# s1 = 'fsdafsda'
+# for i in s1:
+#     continue
+#     print(i)      # 循环,但是啥也没有
+#
+# s2 = 'fsdafsda'
+# for i in s2:
+#     continue
+# print(i)          # a         # 所以,最好去出a,打印a
+#
+# s3 = 'fsdafsda'
+# for i in s3:
+#     print(i)
+#     continue    #  f  s  d  a  f  s  d  a
+
+
+
 
 #
 # Day03作业及默写
@@ -61,11 +75,25 @@ print(i)
 
 
 # 使用for循环对s="321"进行循环，打印的内容依次是："倒计时3秒"，"倒计时2秒"，"倒计时1秒"，"出发！"。
+
+# # 方法 1:
+# s = '321'
+# for i in s:
+#     print('倒计时'+i+'秒')
+# print('出发')
+
+
+
+
+# #方法 2:
 # s = '321'
 # for i in s:
 #     print('倒计时{}秒'.format(i))
-# print(i)
+# print(i)      # 1
 # print('出发！')
+
+
+
 # 实现一个整数加法计算器(两个数相加)：
 #
 # 如：content = input("请输入内容:") 用户输入：5+9或5+ 9或5 + 9，然后进行分割再进行计算。

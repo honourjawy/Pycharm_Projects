@@ -60,18 +60,38 @@ s1 = '老男孩教育最好的讲师：太白'     # 如何变成如下形式内
 # fruits = ['banana', 'apple',  'mango']
 # print(len(fruits))      # 3
 #
-# fruits = ['banana', 'apple',  'mango']
-# for index in range(len(fruits)):
-#    print('当前水果 :', fruits[index])
+fruits = ['banana', 'apple',  'mango']
+for index in range(len(fruits)):
+   print('当前水果 :', fruits[index])
+# 运行结果:
+# 当前水果 : banana
+# 当前水果 : apple
+# 当前水果 : mango
+
+a = ['banana', 'apple',  'mango']
+for i in range(3):
+   print('当前水果 :', a[i])
 # # 运行结果:
-# # 当前水果 : banana
-# # 当前水果 : apple
-# # 当前水果 : mango
-#
-# a = ['banana', 'apple',  'mango']
-# for i in range(3):
-#    print('当前水果 :', a[i])
-#    # # 运行结果:
-#    # 当前水果: banana
-#    # 当前水果: apple
-#    # 当前水果: mango
+# 当前水果: banana
+# 当前水果: apple
+# 当前水果: mango
+
+
+
+
+# break    continue
+s1 = 'fsdafsda'
+for i in s1:
+    continue
+    print(i)      # 循环,但是啥也没有
+
+s2 = 'fsdafsda'
+for i in s2:
+    continue
+print(i)          # a         # 所以,最好去出a,打印a
+
+s3 = 'fsdafsda'
+for i in s3:
+    print(i)
+    continue    #  f  s  d  a  f  s  d  a
+

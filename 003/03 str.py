@@ -290,6 +290,7 @@ print(msg)
 # print(name.isalpha())             # 是否字符串由只由字母组成?        # False
 # print(name.isdecimal())           # 是否字符串由十进制组成?          # False
 # print(name1.isdecimal())          # 是否字符串由十进制组成?          # False
+
 # # 用途:
 # s1 = input('请输入您的金额：')
 # if s1.isdecimal():
