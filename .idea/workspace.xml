@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bfd2acd-b699-49eb-95f1-4bf6b3110f79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/004/自我练习.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/成品_分析与学习/正态分布.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003/03 str.py" beforeDir="false" afterPath="$PROJECT_DIR$/003/03 str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003/04 for循环.py" beforeDir="false" afterPath="$PROJECT_DIR$/003/04 for循环.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/004/01 作业讲解.py" beforeDir="false" afterPath="$PROJECT_DIR$/004/01 作业讲解.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/004/02 列表的索引，切片.py" beforeDir="false" afterPath="$PROJECT_DIR$/004/02 列表的索引，切片.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/成品_分析与学习/某爬图.py" beforeDir="false" afterPath="$PROJECT_DIR$/成品_分析与学习/某爬图.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/成品_分析与学习/正态分布.py" beforeDir="false" afterPath="$PROJECT_DIR$/成品_分析与学习/正态分布.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
       <recent name="D:\pycharm-professional\jawy_practice\day002运算符和编码" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.正态分布">
+  <component name="RunManager" selected="Python.某爬图">
     <configuration name="自我练习 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jawy_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="01 作业讲解 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03 列表的只能删改查" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jawy_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +108,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/004/01 作业讲解.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/004/03 列表的只能删改查.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02 列表的索引，切片" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="某爬图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jawy_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,12 +125,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/004" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/成品_分析与学习" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/004/02 列表的索引，切片.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/成品_分析与学习/某爬图.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.某爬图" />
+        <item itemvalue="Python.03 列表的只能删改查" />
         <item itemvalue="Python.正态分布" />
         <item itemvalue="Python.base" />
         <item itemvalue="Python.自我练习 (1)" />
-        <item itemvalue="Python.02 列表的索引，切片" />
-        <item itemvalue="Python.01 作业讲解 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +243,8 @@
       <workItem from="1602423374085" duration="3791000" />
       <workItem from="1602428422247" duration="616000" />
       <workItem from="1602429086031" duration="340000" />
+      <workItem from="1602429444285" duration="2114000" />
+      <workItem from="1602457657651" duration="7689000" />
     </task>
     <task id="LOCAL-00001" summary="Error correction">
       <created>1559970317956</created>
@@ -584,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602124409078</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Increase the analysis of finished product analysis.">
+      <created>1602429467556</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1602429467556</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,65 +620,54 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="82" key="#插件/0.0.1536.834@0.0.1536.834" timestamp="1602423402762" />
-    <state x="548" y="0" width="863" height="697" key="CommitChangelistDialog2" timestamp="1602124408141">
+    <state x="548" y="0" width="863" height="697" key="CommitChangelistDialog2" timestamp="1602429465010">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1602124408141" />
-    <state width="1254" height="178" key="GridCell.Tab.0.bottom" timestamp="1602429425562">
+    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1602429465010" />
+    <state width="1254" height="74" key="GridCell.Tab.0.bottom" timestamp="1602466614890">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1254" height="178" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602429425562" />
-    <state width="1254" height="178" key="GridCell.Tab.0.center" timestamp="1602429425562">
+    <state width="1254" height="74" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602466614890" />
+    <state width="1254" height="74" key="GridCell.Tab.0.center" timestamp="1602466614890">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1254" height="178" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1602429425562" />
-    <state width="1254" height="178" key="GridCell.Tab.0.left" timestamp="1602429425562">
+    <state width="1254" height="74" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1602466614890" />
+    <state width="1254" height="74" key="GridCell.Tab.0.left" timestamp="1602466614890">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1254" height="178" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1602429425562" />
-    <state width="1254" height="178" key="GridCell.Tab.0.right" timestamp="1602429425562">
+    <state width="1254" height="74" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1602466614890" />
+    <state width="1254" height="74" key="GridCell.Tab.0.right" timestamp="1602466614890">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1254" height="178" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1602429425562" />
-    <state width="627" height="270" key="GridCell.Tab.1.bottom" timestamp="1602074519526">
+    <state width="1254" height="74" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1602466614890" />
+    <state width="1254" height="224" key="GridCell.Tab.1.bottom" timestamp="1602431561018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="627" height="270" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602074519526" />
-    <state width="627" height="270" key="GridCell.Tab.1.center" timestamp="1602074519526">
+    <state width="1254" height="224" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602431561018" />
+    <state width="1254" height="224" key="GridCell.Tab.1.center" timestamp="1602431561018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="627" height="270" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1602074519526" />
-    <state width="627" height="270" key="GridCell.Tab.1.left" timestamp="1602074519526">
+    <state width="1254" height="224" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1602431561018" />
+    <state width="1254" height="224" key="GridCell.Tab.1.left" timestamp="1602431561018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="627" height="270" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1602074519526" />
-    <state width="627" height="270" key="GridCell.Tab.1.right" timestamp="1602074519526">
+    <state width="1254" height="224" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1602431561018" />
+    <state width="1254" height="224" key="GridCell.Tab.1.right" timestamp="1602431561018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="627" height="270" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1602074519526" />
+    <state width="1254" height="224" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1602431561018" />
     <state x="-98" y="105" width="996" height="729" key="SettingsEditor" timestamp="1602426693127">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-98" y="105" width="996" height="729" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1602426693127" />
-    <state x="450" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602124349487">
+    <state x="450" y="169" key="Vcs.Push.Dialog.v2" timestamp="1602429470694">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="450" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1602124349487" />
+    <state x="450" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1602429470694" />
     <state x="423" y="155" key="search.everywhere.popup" timestamp="1600754416633">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="423" y="155" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1600754416633" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/成品_分析与学习/某爬图.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Pycharm_Projects$03_str.coverage" NAME="03 str Coverage Results" MODIFIED="1602056855452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day003字符串" />
@@ -685,11 +679,12 @@
     <SUITE FILE_PATH="coverage/Pycharm_Projects$05_.coverage" NAME="05 运算符 Coverage Results" MODIFIED="1592537691365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$01___1_.coverage" NAME="01 作业讲解 (1) Coverage Results" MODIFIED="1602233602134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$04_for.coverage" NAME="04 for循环 Coverage Results" MODIFIED="1602059799340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day003字符串" />
+    <SUITE FILE_PATH="coverage/Pycharm_Projects$03_.coverage" NAME="03 列表的只能删改查 Coverage Results" MODIFIED="1602463056648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$04_.coverage" NAME="04 格式化输出 Coverage Results" MODIFIED="1592536479736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/jawy_practice$helloworld__1_.coverage" NAME="helloworld (1) Coverage Results" MODIFIED="1561607904902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$__1_.coverage" NAME="自我练习 (1) Coverage Results" MODIFIED="1602428639385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$02_.coverage" NAME="02 列表的索引，切片 Coverage Results" MODIFIED="1602423426752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004" />
-    <SUITE FILE_PATH="coverage/Pycharm_Projects$.coverage" NAME="正态分布 Coverage Results" MODIFIED="1602429389419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/成品_分析与学习" />
+    <SUITE FILE_PATH="coverage/Pycharm_Projects$.coverage" NAME="某爬图 Coverage Results" MODIFIED="1602466614882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/成品_分析与学习" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$Python_first_text.coverage" NAME="Python_first text Coverage Results" MODIFIED="1600752879287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day001认识python" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$base.coverage" NAME="base Coverage Results" MODIFIED="1602428878974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python3.8.2_64/Lib/site-packages/pandas/core/indexes" />
     <SUITE FILE_PATH="coverage/Pycharm_Projects$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1591683108149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day002运算符和编码" />
