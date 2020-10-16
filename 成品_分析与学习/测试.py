@@ -243,35 +243,35 @@ def main_handler(*arg):
     response = requests.get(tqurl)
     d = response.json()                     # 将数据以json形式返回，这个d就是返回的json数据
 
-    # if (d['status'] == 200):  # 当返回状态码为200，输出天气状况
-    #     print("城市：", d["cityInfo"]["parent"], d["cityInfo"]["city"])
-    #     print("更新时间：", d["time"])
-    #     print("日期：", d["data"]["forecast"][0]["ymd"])
-    #     print("星期：", d["data"]["forecast"][0]["week"])
-    #     print("天气：", d["data"]["forecast"][0]["type"])
-    #     print("温度：", d["data"]["forecast"][0]["high"], d["data"]["forecast"][0]["low"])
-    #     print("湿度：", d["data"]["shidu"])
-    #     print("PM25:", d["data"]["pm25"])
-    #     print("PM10:", d["data"]["pm10"])
-    #     print("空气质量：", d["data"]["quality"])
-    #     print("风力风向：", d["data"]["forecast"][0]["fx"], d["data"]["forecast"][0]["fl"])
-    #     print("感冒指数：", d["data"]["ganmao"])
-    #     print("温馨提示：", d["data"]["forecast"][0]["notice"], "。")
-    #
-    #     tdwt = '\n\n城市：' + d['cityInfo']['parent'] + ' ' + d['cityInfo']['city'] + '\n\n日期：' + d["data"]["forecast"][0][
-    #         "ymd"] + ' ' + d["data"]["forecast"][0]["week"] + '\n\n天气：' + d["data"]["forecast"][0]["type"] + '\n\n温度：' + \
-    #            d["data"]["forecast"][0]["high"] + ' ' + d["data"]["forecast"][0]["low"] + '\n\n湿度：' + d["data"][
-    #                "shidu"] + '\n\n空气质量：' + d["data"]["quality"] + '\n\n风力风向：' + d["data"]["forecast"][0]["fx"] + ' ' + \
-    #            d["data"]["forecast"][0]["fl"] + '\n\n温馨提示：' + d["data"]["forecast"][0]["notice"] + '。\n\n[更新时间：' + d[
-    #                "time"] + ']\n\n-----------------' + get_iciba_everyday()  # 天气提示内容，基本上该有的都做好了，如果要添加信息可以看上面的print，我感觉有用的我都弄进来了。
-    #     text = "【今日份天气】"
-    #     data = {'text': text, 'desp': tdwt.encode('UTF-8')}
-    #     res = requests.post(cpurl, data=data)  # 把天气数据转换成UTF-8格式，不然要报错。
-    #     print(res.text)
-    # else:
-    #     error = '【出现错误】\n　　今日天气推送错误，请检查服务状态！'
-    #     res = requests.post(cpurl, error.encode('utf-8'))
-    #     print(res.text)
+    if (d['status'] == 200):  # 当返回状态码为200，输出天气状况
+        print("城市：", d["cityInfo"]["parent"], d["cityInfo"]["city"])
+        print("更新时间：", d["time"])
+        print("日期：", d["data"]["forecast"][0]["ymd"])
+        print("星期：", d["data"]["forecast"][0]["week"])
+        print("天气：", d["data"]["forecast"][0]["type"])
+        print("温度：", d["data"]["forecast"][0]["high"], d["data"]["forecast"][0]["low"])
+        print("湿度：", d["data"]["shidu"])
+        print("PM25:", d["data"]["pm25"])
+        print("PM10:", d["data"]["pm10"])
+        print("空气质量：", d["data"]["quality"])
+        print("风力风向：", d["data"]["forecast"][0]["fx"], d["data"]["forecast"][0]["fl"])
+        print("感冒指数：", d["data"]["ganmao"])
+        print("温馨提示：", d["data"]["forecast"][0]["notice"], "。")
+
+        tdwt = '\n\n城市：' + d['cityInfo']['parent'] + ' ' + d['cityInfo']['city'] + '\n\n日期：' + d["data"]["forecast"][0][
+            "ymd"] + ' ' + d["data"]["forecast"][0]["week"] + '\n\n天气：' + d["data"]["forecast"][0]["type"] + '\n\n温度：' + \
+               d["data"]["forecast"][0]["high"] + ' ' + d["data"]["forecast"][0]["low"] + '\n\n湿度：' + d["data"][
+                   "shidu"] + '\n\n空气质量：' + d["data"]["quality"] + '\n\n风力风向：' + d["data"]["forecast"][0]["fx"] + ' ' + \
+               d["data"]["forecast"][0]["fl"] + '\n\n温馨提示：' + d["data"]["forecast"][0]["notice"] + '。\n\n[更新时间：' + d[
+                   "time"] + ']\n\n-----------------' + get_iciba_everyday()  # 天气提示内容，基本上该有的都做好了，如果要添加信息可以看上面的print，我感觉有用的我都弄进来了。
+        text = "【今日份天气】"
+        data = {'text': text, 'desp': tdwt.encode('UTF-8')}
+        res = requests.post(cpurl, data=data)  # 把天气数据转换成UTF-8格式，不然要报错。
+        print(res.text)
+    else:
+        error = '【出现错误】\n　　今日天气推送错误，请检查服务状态！'
+        res = requests.post(cpurl, error.encode('utf-8'))
+        print(res.text)
 
 
 
