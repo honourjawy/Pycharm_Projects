@@ -68,7 +68,7 @@
 # for i in s:
 #    print(s)
 
-# 使用for循环对s="abcdefg"进行循环，每次打印的内容是每个字符加上sb， 例如：asb, bsb，csb,...gsb。
+# # 使用for循环对s="abcdefg"进行循环，每次打印的内容是每个字符加上sb， 例如：asb, bsb，csb,...gsb。
 # s="abcdefg"
 # for i in s:
 #     print(i + 'sb')
